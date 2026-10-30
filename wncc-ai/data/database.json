@@ -1,0 +1,667 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-sasuke",
+      "email": "babatundeoyemade0@gmail.com",
+      "username": "sasuke",
+      "displayName": "Sasuke (WNCC Admin)",
+      "bio": "Official Administrator and Theological Academic Moderator at West Nigeria Christian College (WNCC).",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "passwordHash": "5e43f5814fa1d1327f9d319e2010fffb4d328bdd31957948400249e22243d27846e06ac100f5db2b7c21e5b6de8fe37476f82681ae5c847ac7302361fdd5950e",
+      "salt": "75a97e803a86bfa832e431c8976bc675",
+      "role": "super_admin",
+      "isAdmin": true,
+      "createdAt": "2026-10-04T19:24:49.355Z",
+      "friends": [],
+      "lastActive": "2026-10-29T20:18:43.417Z",
+      "isSuperAdmin": true,
+      "isBanned": false
+    },
+    {
+      "id": "usr-student-emmanuel",
+      "email": "emmanuel.adeyemi@wncc.edu.ng",
+      "username": "emmanuel_wncc",
+      "displayName": "Emmanuel Adeyemi",
+      "bio": "3rd Year Ministerial Student at WNCC. Passionate about Expository Preaching and Church Planting.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "passwordHash": "be2e9ea0b265c810bac56cbedc524bee2ebad8fc205f43a6e761a8e654fc1497afd2d236eb62aa8f090403c6aed5d4d16071b0fab049b1052ff6082b6da502b6",
+      "salt": "75a97e803a86bfa832e431c8976bc675",
+      "role": "user",
+      "isAdmin": false,
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "friends": [
+        "usr-admin-sasuke"
+      ],
+      "isBanned": false
+    },
+    {
+      "id": "usr-1791142092559-95qmn",
+      "email": "tundeoyemade0@gmail.com",
+      "username": "tunde",
+      "displayName": "Java god",
+      "bio": "WNCC Student & Biblical Scholar",
+      "avatarUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Java%20god",
+      "passwordHash": "a199ff881cba63f50567a85cd9517ce5a7d5b98a6dce566fb148c74fb9a2c78b81a3ce640d7c8604fef0f1c8ec9ee027f14c49b5d01f8cabf55bc07ab6f9f240",
+      "salt": "ffd22329bdc4792bed480c8da04c176d",
+      "role": "user",
+      "isAdmin": false,
+      "createdAt": "2026-10-04T19:28:12.559Z",
+      "friends": [],
+      "isBanned": false
+    },
+    {
+      "id": "usr-student-ruth",
+      "email": "ruth.okonkwo@wncc.edu.ng",
+      "username": "ruth_scholar",
+      "displayName": "Ruth Okonkwo",
+      "bio": "Department of Biblical Studies. Researching Greek Lexicography and Pauline Hermeneutics.",
+      "avatarUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=300&auto=format&fit=crop&q=80",
+      "coverUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+      "passwordHash": "dceaa697d256f02fe3928992cceee57820e32c359fd16d684fb14e67dd7159678bbad538838c2c3070e5a6b25ef08b5f37c7575f0e04d0a364346cb585e318be",
+      "salt": "1f9718b84c2f6007e19f8bdd9fc8857f",
+      "role": "user",
+      "isAdmin": false,
+      "createdAt": "2026-10-29T20:01:45.323Z",
+      "friends": [
+        "usr-admin-sasuke"
+      ],
+      "followers": [],
+      "following": [
+        "usr-admin-sasuke"
+      ],
+      "lastActive": "2026-10-29T20:01:45.323Z",
+      "isBanned": false
+    },
+    {
+      "id": "usr-faculty-david",
+      "email": "david.babatunde@wncc.edu.ng",
+      "username": "pastor_david",
+      "displayName": "Pastor David Olatunji",
+      "bio": "Lecturer in Homiletics & Pastoral Care. Serving Churches of Christ in South-West Nigeria.",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
+      "coverUrl": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200&auto=format&fit=crop&q=80",
+      "passwordHash": "ffea2fc5bbdb62e97443f384d716ef7a641588cdccbfb6583d7e9d1f8cbf9becf05541949d62aca08ec06fecba0085b3f8c84dcf124fafe8e3dbbd1e92946396",
+      "salt": "1f9718b84c2f6007e19f8bdd9fc8857f",
+      "role": "user",
+      "isAdmin": false,
+      "createdAt": "2026-10-29T20:01:45.329Z",
+      "friends": [
+        "usr-admin-sasuke"
+      ],
+      "followers": [],
+      "following": [],
+      "lastActive": "2026-10-29T20:01:45.329Z",
+      "isBanned": false
+    }
+  ],
+  "categories": [
+    "Church History",
+    "Old Testament",
+    "New Testament",
+    "Bible Survey",
+    "Theology",
+    "Christian Doctrine",
+    "Apologetics",
+    "Research Method",
+    "Sermon Preparation",
+    "Bible Study",
+    "General Academics"
+  ],
+  "topics": [
+    {
+      "id": "topic-1",
+      "title": "The Doctrine of Justification by Faith",
+      "subject": "Pauline Epistles & Systematic Theology",
+      "category": "Christian Doctrine",
+      "explanation": "Justification is God’s judicial declaration wherein a sinner is acquitted and declared righteous solely through faith in the finished, sacrificial work of Jesus Christ, rather than by human works of the law.",
+      "keywords": [
+        "justification",
+        "faith",
+        "righteousness",
+        "imputation",
+        "grace",
+        "Romans",
+        "Galatians",
+        "theology"
+      ],
+      "bibleReferences": [
+        "Romans 3:21-28",
+        "Romans 5:1-2",
+        "Galatians 2:16",
+        "Ephesians 2:8-9",
+        "2 Corinthians 5:21"
+      ],
+      "notes": "Crucial for exams: Distinguish between Justification (imputed righteousness, instantaneous legal standing before God) and Sanctification (imparted holiness, progressive moral transformation through the Holy Spirit). Mention Martin Luther's \"articulus stantis vel cadentis ecclesiae\" (the article by which the church stands or falls).",
+      "studyMaterial": "Detailed lecture notes: In Romans 3:24-26, Paul demonstrates that God remains both \"just and the justifier of the one who has faith in Jesus\". Christ’s blood serves as the propitiation (hilasterion), satisfying God’s holy justice.",
+      "searchTerms": [
+        "justification",
+        "faith",
+        "romans",
+        "salvation",
+        "grace"
+      ],
+      "authorId": "usr-admin-sasuke",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "updatedAt": "2026-10-04T19:24:49.363Z"
+    },
+    {
+      "id": "topic-2",
+      "title": "The Synoptic Problem & Two-Source Hypothesis",
+      "subject": "New Testament Introduction",
+      "category": "New Testament",
+      "explanation": "The Synoptic Problem examines the literary and historical relationships among the Gospels of Matthew, Mark, and Luke. The Two-Source Hypothesis posits that the Gospel of Mark was written first (Marcan Priority) and that Matthew and Luke independently utilized Mark along with a hypothetical sayings source called Q (Quelle).",
+      "keywords": [
+        "synoptic",
+        "gospels",
+        "matthew",
+        "mark",
+        "luke",
+        "quelle",
+        "two-source hypothesis",
+        "q source"
+      ],
+      "bibleReferences": [
+        "Mark 1:1",
+        "Luke 1:1-4",
+        "Matthew 1:1"
+      ],
+      "notes": "WNCC Exam Tip: Be prepared to cite internal evidence supporting Marcan priority: Mark's rougher Greek grammar, shorter length, and the lack of Markan narrative without parallels in Matthew or Luke.",
+      "studyMaterial": "The four-document hypothesis expanded by B.H. Streeter also accounts for \"M\" (unique Matthew material like the visit of the Magi) and \"L\" (unique Luke material like the Good Samaritan and Prodigal Son).",
+      "searchTerms": [
+        "synoptic",
+        "two-source",
+        "markan priority",
+        "gospels",
+        "q source"
+      ],
+      "authorId": "usr-admin-sasuke",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "updatedAt": "2026-10-04T19:24:49.363Z"
+    },
+    {
+      "id": "topic-3",
+      "title": "Covenant Theology in the Pentateuch",
+      "subject": "Old Testament Studies",
+      "category": "Old Testament",
+      "explanation": "A comprehensive study of Yahweh’s covenants with humanity and Israel: the Adamic, Noahic, Abrahamic, and Mosaic covenants. The covenants reveal God’s progressive plan of redemption culminating in the New Covenant promised in Jeremiah 31 and fulfilled in Christ.",
+      "keywords": [
+        "covenant",
+        "berith",
+        "abrahamic",
+        "mosaic",
+        "pentateuch",
+        "law",
+        "promise",
+        "redemption"
+      ],
+      "bibleReferences": [
+        "Genesis 12:1-3",
+        "Genesis 15:1-18",
+        "Exodus 19:5-6",
+        "Exodus 24:7-8",
+        "Deuteronomy 28:1-14"
+      ],
+      "notes": "Distinguish between unconditional/promissory covenants (Abrahamic: land, seed, blessing) and conditional suzerainty treaties (Mosaic: blessings for obedience, curses for disobedience).",
+      "studyMaterial": "The Hebrew term \"Berith\" signifies a solemn bond sovereignly administered by God. Hittite Suzerainty Treaties of the 2nd millennium BC provide the historical structural parallel for the Book of Deuteronomy.",
+      "searchTerms": [
+        "covenant",
+        "pentateuch",
+        "abrahamic covenant",
+        "old testament"
+      ],
+      "authorId": "usr-admin-sasuke",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "updatedAt": "2026-10-04T19:24:49.363Z"
+    },
+    {
+      "id": "topic-4",
+      "title": "The Restoration Movement & Church History in West Africa",
+      "subject": "Church History & Restoration Studies",
+      "category": "Church History",
+      "explanation": "The historical development of the Stone-Campbell Restoration Movement aimed at Christian unity based on the New Testament pattern (\"where the Scriptures speak, we speak; where the Scriptures are silent, we are silent\"), and its arrival, growth, and establishment of institutions like WNCC in Abeokuta/Nigeria.",
+      "keywords": [
+        "restoration movement",
+        "stone-campbell",
+        "church of christ",
+        "nigeria",
+        "wncc",
+        "abeokuta",
+        "church history"
+      ],
+      "bibleReferences": [
+        "Acts 2:42",
+        "John 17:20-21",
+        "Ephesians 4:4-6",
+        "1 Peter 4:11"
+      ],
+      "notes": "Important dates for WNCC students: Key pioneer evangelists in Nigeria, the founding of West Nigeria Christian College as an academic beacon for ministerial training, biblical scholarship, and evangelism across West Africa.",
+      "studyMaterial": "Principles emphasized: Autonomous congregational leadership by elders and deacons, weekly observance of the Lord’s Supper, baptism by immersion for the remission of sins, and biblical non-denominational Christianity.",
+      "searchTerms": [
+        "restoration",
+        "church history",
+        "church of christ",
+        "nigeria",
+        "wncc"
+      ],
+      "authorId": "usr-admin-sasuke",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "updatedAt": "2026-10-04T19:24:49.363Z"
+    },
+    {
+      "id": "topic-5",
+      "title": "Expository Preaching & Homiletical Structure",
+      "subject": "Homiletics & Ministry Practice",
+      "category": "Sermon Preparation",
+      "explanation": "Expository preaching is the communication of a biblical concept derived from and transmitted through a historical, grammatical, and literary study of a passage in its context, which the Holy Spirit first applies to the personality of the preacher, then through the preacher to the congregation.",
+      "keywords": [
+        "homiletics",
+        "expository preaching",
+        "sermon",
+        "outline",
+        "hermeneutics",
+        "application",
+        "illustration"
+      ],
+      "bibleReferences": [
+        "Nehemiah 8:8",
+        "2 Timothy 4:1-2",
+        "Ezra 7:10",
+        "Titus 2:1"
+      ],
+      "notes": "Homiletical bridge: 1. Biblical Text -> 2. Exegetical Idea (\"What did it mean then?\") -> 3. Homiletical Big Idea (\"What is the timeless truth?\") -> 4. Practical Application (\"How do we live it now?\").",
+      "studyMaterial": "Structure includes: Introduction (Capture attention, raise need), Proposition / Main Idea, Transition Sentence, Body Points with scripture reading, explanation, illustration, and application, Conclusion (Recap, call to repentance/action).",
+      "searchTerms": [
+        "sermon",
+        "homiletics",
+        "expository preaching",
+        "preaching"
+      ],
+      "authorId": "usr-admin-sasuke",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "updatedAt": "2026-10-04T19:24:49.363Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-stream-verify",
+      "userId": "guest-verify",
+      "title": "Write a python function to add two n...",
+      "createdAt": "2026-10-04T19:55:58.542Z",
+      "updatedAt": "2026-10-04T19:56:32.431Z",
+      "messages": [
+        {
+          "id": "msg-1791143758542-u",
+          "role": "user",
+          "content": "Write a python function to add two numbers in 2 lines.",
+          "timestamp": "2026-10-04T19:55:58.542Z"
+        },
+        {
+          "id": "msg-1791143764908-a",
+          "role": "assistant",
+          "content": "Here is the Python function written in exactly two lines:\n\n```python\ndef add(a, b):\n    return a + b\n```\n\n### Example Usage:\n```python\nresult = add(5, 7)\nprint(result)  # Output: 12\n```\n\n*(Note: If you ever need an even more compact alternative, you can also write it as a one-line lambda function: `add = lambda a, b: a + b`)*",
+          "timestamp": "2026-10-04T19:56:04.908Z",
+          "bibleReferences": [],
+          "relatedTopics": []
+        },
+        {
+          "id": "msg-1791143770544-u",
+          "role": "user",
+          "content": "Now modify it to take three numbers instead.",
+          "timestamp": "2026-10-04T19:56:10.544Z"
+        },
+        {
+          "id": "msg-1791143792431-a",
+          "role": "assistant",
+          "content": "Here is the modified two-line function to add three numbers:\n\n```python\ndef add(a, b, c):\n    return a + b + c\n```\n\n### Example Usage:\n```python\nresult = add(5, 7, 3)\nprint(result)  # Output: 15\n```\n\n*(Or as a one-line lambda: `add = lambda a, b, c: a + b + c`)*",
+          "timestamp": "2026-10-04T19:56:32.431Z",
+          "bibleReferences": [],
+          "relatedTopics": []
+        }
+      ]
+    },
+    {
+      "id": "conv-test-live",
+      "userId": "guest-live",
+      "title": "Write a 2-line python function to ad...",
+      "createdAt": "2026-10-04T19:55:11.920Z",
+      "updatedAt": "2026-10-04T19:55:32.240Z",
+      "messages": [
+        {
+          "id": "msg-1791143711920-u",
+          "role": "user",
+          "content": "Write a 2-line python function to add two numbers.",
+          "timestamp": "2026-10-04T19:55:11.920Z"
+        },
+        {
+          "id": "msg-1791143732240-a",
+          "role": "assistant",
+          "content": "",
+          "timestamp": "2026-10-04T19:55:32.240Z",
+          "bibleReferences": [],
+          "relatedTopics": []
+        }
+      ]
+    },
+    {
+      "id": "conv-1791143663740-s4q4",
+      "userId": "guest-test-123",
+      "title": "What is justification?",
+      "createdAt": "2026-10-04T19:54:23.741Z",
+      "updatedAt": "2026-10-04T19:55:00.315Z",
+      "messages": [
+        {
+          "id": "msg-1791143667121-u",
+          "role": "user",
+          "content": "What is justification?",
+          "timestamp": "2026-10-04T19:54:27.121Z"
+        },
+        {
+          "id": "msg-1791143681310-u",
+          "role": "user",
+          "content": "What is justification?",
+          "timestamp": "2026-10-04T19:54:41.310Z"
+        },
+        {
+          "id": "msg-1791143691380-a",
+          "role": "assistant",
+          "content": "",
+          "timestamp": "2026-10-04T19:54:51.380Z",
+          "bibleReferences": [
+            "Romans 3:21-28",
+            "Romans 5:1-2",
+            "Galatians 2:16",
+            "Ephesians 2:8-9"
+          ],
+          "relatedTopics": [
+            "The Doctrine of Justification by Faith"
+          ]
+        },
+        {
+          "id": "msg-1791143700315-a",
+          "role": "assistant",
+          "content": "## The Doctrine of Justification\n\nIn Christian theology, **justification** is God’s judicial (forensic) declaration wherein an ungodly sinner is fully acquitted of guilt and declared righteous before a holy God. This legal standing is granted not on the basis of personal merit or good works, but solely by God's grace through faith in the finished, sacrificial work of Jesus Christ.\n\n---\n\n### 1. Biblical and Linguistic Foundation\n\nThe New Testament primarily expresses this concept using the Greek verb **δικαιόω** (*dikaioō*), which is legal or forensic terminology meaning **\"to declare righteous\"** or **\"to acquit\"**, rather than \"to make righteous\" internally.\n\n* **God’s Holiness and Justice:** God cannot simply overlook sin; His righteous character demands justice. In Christ, God satisfies His own law.\n* **Propitiation (*Hilasterion*):** In Romans 3:24–26, the Apostle Paul explains that God put forward Christ as a propitiation (*hilasterion*)—the wrath-bearing, atoning sacrifice that satisfies divine justice. Consequently, God demonstrates Himself to be **both just and the justifier** of the one who has faith in Jesus.\n\n> **Romans 3:24–26 (ESV)**  \n> \"...and are justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood, to be received by faith. This was to show God's righteousness... so that he might be just and the justifier of the one who has faith in Jesus.\"\n\n---\n\n### 2. The Mechanics of Justification: The \"Great Exchange\"\n\nJustification involves a divine double-imputation, often called the \"Great Exchange\":\n\n1. **Our Sin Imputed to Christ:** On the cross, Christ bore the penalty, guilt, and condemnation of human sin (Isaiah 53:5–6; 1 Peter 2:24).\n2. **Christ’s Righteousness Imputed to Us:** Through faith, the perfect obedience and righteousness of Jesus Christ are credited (*reckoned*) to the believer's account.\n\n> **2 Corinthians 5:21 (ESV)**  \n> \"For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.\"\n\n* **The Ground of Justification:** The shed blood, death, and resurrection of Jesus Christ alone (Romans 5:9).\n* **The Means/Instrument of Justification:** Faith in Jesus Christ, apart from works of the law (Romans 3:28; Galatians 2:16; Ephesians 2:8–9).\n\n---\n\n### 3. Essential Theological Distinction: Justification vs. Sanctification\n\nA foundational distinction in systematic theology and Pauline studies is between **Justification** and **Sanctification**. Conflating these two leads to theological confusion and legalism.\n\n| Feature | Justification | Sanctification |\n| :--- | :--- | :--- |\n| **Nature** | A **legal declaration** (forensic standing). | An **internal transformation** (moral renewal). |\n| **Righteousness** | **Imputed** (Christ's righteousness credited to us). | **Imparted** (Christ's holiness formed in us). |\n| **Timing** | **Instantaneous**; complete once and for all. | **Progressive**; ongoing throughout life. |\n| **Agent** | God alone acting as the supreme Judge. | The Holy Spirit working cooperatively with the believer. |\n| **Result** | Freedom from the **penalty** of sin. | Freedom from the **power** and dominion of sin. |\n\n---\n\n### 4. Historical Significance\n\nDuring the Protestant Reformation, this doctrine regained central prominence. Martin Luther famously referred to the doctrine of justification by faith alone (*sola fide*) as:\n\n> ***\"Articulus stantis vel cadentis ecclesiae\"***  \n> *(The article by which the church stands or falls).*\n\nIf justification is grounded in human merit or ecclesiastical rituals, grace ceases to be grace. But when anchored in Christ's finished work, it remains an immovable rock for the believer.\n\n---\n\n### 5. Ministerial and Practical Implications\n\n* **Peace with God:** Because justification is complete, believers are no longer under condemnation (Romans 8:1). As Paul writes in **Romans 5:1**:  \n  > *\"Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ.\"*\n* **Freedom from Legalism:** We do not work *in order* to be saved; rather, genuine good works and obedience flow *out of* a grateful, justified heart (Ephesians 2:10; James 2:18–24).\n* **Assurance in Ministry:** Salvation rests on the unchanging integrity of Christ's cross, not on fluctuating human performance.",
+          "timestamp": "2026-10-04T19:55:00.315Z",
+          "bibleReferences": [
+            "Romans 3:24",
+            "Isaiah 53:5",
+            "Peter 2:24",
+            "Corinthians 5:21",
+            "Romans 5:9"
+          ],
+          "relatedTopics": [
+            "The Doctrine of Justification by Faith"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv-1791142979978-fs5b",
+      "userId": "usr-admin-sasuke",
+      "title": "hi",
+      "createdAt": "2026-10-04T19:42:59.978Z",
+      "updatedAt": "2026-10-04T19:43:40.081Z",
+      "messages": [
+        {
+          "id": "msg-1791143002884-u",
+          "role": "user",
+          "content": "hi",
+          "timestamp": "2026-10-04T19:43:22.884Z"
+        },
+        {
+          "id": "msg-1791143005277-a",
+          "role": "assistant",
+          "content": "Grace and peace to you! \n\nI am **WNCC AI**, the academic, theological, and biblical assistant for **West Nigeria Christian College & School of Biblical Studies (WNCC)**. \n\nWhether you need assistance with:\n* **Theology & Biblical Studies:** Exegesis, hermeneutics, Church history, homiletics, or Restoration Movement heritage.\n* **Academic Research & Writing:** Structuring essays, term papers, literature reviews, or thesis formatting (APA, Turabian, Chicago).\n* **STEM & Technical Tasks:** Computer programming, data analysis, mathematics, and logic.\n* **Practical Ministry & General Work:** Sermon outlines, Bible class curricula, speechwriting, or brainstorming.\n\nHow can I serve or assist your studies and ministry today?",
+          "timestamp": "2026-10-04T19:43:25.277Z",
+          "bibleReferences": [],
+          "relatedTopics": []
+        },
+        {
+          "id": "msg-1791143015678-u",
+          "role": "user",
+          "content": "what up",
+          "timestamp": "2026-10-04T19:43:35.678Z"
+        },
+        {
+          "id": "msg-1791143020081-a",
+          "role": "assistant",
+          "content": "### WNCC AI Assistant\n\nI have received your inquiry: **\"what up\"**.\n\nI am equipped to help you with:\n- **Theological & Biblical Exegesis** (Greek, Hebrew, Church History, Hermeneutics)\n- **Collegiate Writing & Research** (Essays, assignments, citations)\n- **Programming & Technical Code** (JavaScript, Python, TypeScript, algorithms)\n- **General Problem Solving & Reasoning**\n\nFeel free to ask follow-up questions or request: *\"Explain in simple English\"* or *\"Give me an exam answer\"*!",
+          "timestamp": "2026-10-04T19:43:40.081Z",
+          "bibleReferences": [],
+          "relatedTopics": []
+        }
+      ]
+    },
+    {
+      "id": "conv-1791142143995-m41d",
+      "userId": "usr-1791142092559-95qmn",
+      "title": "New Study Session",
+      "createdAt": "2026-10-04T19:29:03.995Z",
+      "updatedAt": "2026-10-04T19:29:03.995Z",
+      "messages": []
+    },
+    {
+      "id": "conv-1791142143798-gj4a",
+      "userId": "usr-1791142092559-95qmn",
+      "title": "New Study Session",
+      "createdAt": "2026-10-04T19:29:03.798Z",
+      "updatedAt": "2026-10-04T19:29:03.798Z",
+      "messages": []
+    },
+    {
+      "id": "conv-1791142128464-dyc3",
+      "userId": "usr-1791142092559-95qmn",
+      "title": "hi",
+      "createdAt": "2026-10-04T19:28:48.464Z",
+      "updatedAt": "2026-10-04T19:28:57.354Z",
+      "messages": [
+        {
+          "id": "msg-1791142134893-u",
+          "role": "user",
+          "content": "hi",
+          "timestamp": "2026-10-04T19:28:54.893Z"
+        },
+        {
+          "id": "msg-1791142137354-a",
+          "role": "assistant",
+          "content": "### Response from WNCC AI\n\nThank you for your academic inquiry regarding: **\"hi\"**.\n\nAs the official AI platform for West Nigeria Christian College, I am here to assist you with Biblical studies, theology, Church history, sermon preparation, and general academics.\n\n> *\"Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.\"* — 2 Timothy 2:15\n\nTo dive deeper into this question, feel free to request:\n- **\"Explain it in simple English\"** for an introductory breakdown.\n- **\"Give me an exam answer\"** for a structured academic response with definitions, scripture references, and historical analysis.\n- Or explore the **Topics** tab to browse WNCC course materials!",
+          "timestamp": "2026-10-04T19:28:57.354Z",
+          "bibleReferences": [
+            "Timothy 2:15"
+          ],
+          "relatedTopics": []
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-welcome",
+      "authorId": "usr-admin-sasuke",
+      "authorName": "Sasuke (WNCC Admin)",
+      "authorUsername": "sasuke",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "content": "Grace and peace to the entire West Nigeria Christian College community! Welcome to the newly launched WNCC AI platform. You can now consult the academic AI for exam revision, research theology, explore curated college knowledge topics, and connect with fellow scholars in this community forum.",
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1000&auto=format&fit=crop&q=80",
+      "likes": [
+        "usr-student-emmanuel"
+      ],
+      "comments": [
+        {
+          "id": "comm-1",
+          "authorId": "usr-student-emmanuel",
+          "authorName": "Emmanuel Adeyemi",
+          "authorUsername": "emmanuel_wncc",
+          "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+          "content": "Glory to God! This will be tremendously helpful for our preparation for the upcoming Hermeneutics and Church History comprehensive examinations.",
+          "createdAt": "2026-10-04T19:24:49.363Z"
+        }
+      ],
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "reactions": [
+        {
+          "userId": "usr-student-emmanuel",
+          "userName": "Scholar",
+          "type": "like"
+        }
+      ]
+    }
+  ],
+  "friendRequests": [],
+  "directMessages": [],
+  "notifications": [
+    {
+      "id": "notif-welcome",
+      "userId": "usr-student-emmanuel",
+      "type": "announcement",
+      "title": "Welcome to WNCC AI",
+      "message": "Explore topics, ask academic questions, and engage with the WNCC community.",
+      "read": false,
+      "createdAt": "2026-10-04T19:24:49.363Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "WNCC Academic Session AI Assistant Integration",
+      "content": "All ministerial and degree students are encouraged to utilize WNCC AI for coursework research, exegetical analysis, and revision. Official topics are continuously moderated by the College Academic Board.",
+      "authorName": "Academic Affairs WNCC",
+      "createdAt": "2026-10-04T19:24:49.363Z",
+      "important": true
+    }
+  ],
+  "systemSettings": {
+    "customAiInstructions": "You are WNCC AI, the official academic, theological, and biblical AI assistant for West Nigeria Christian College (WNCC). Maintain high biblical fidelity, historical-grammatical scholarship, practical ministerial warmth, and clear academic structure. When answering, reference relevant Scriptures and WNCC knowledge repository materials."
+  },
+  "groups": [
+    {
+      "id": "grp-ministerial",
+      "name": "WNCC Ministerial Fellowship",
+      "description": "A community for ministerial students, trainee evangelists, and church leaders discussing sermon preparation, pastoral theology, and church administration.",
+      "category": "Ministry & Preaching",
+      "coverUrl": "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=1200&auto=format&fit=crop&q=80",
+      "avatarUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=300&auto=format&fit=crop&q=80",
+      "privacy": "public",
+      "adminIds": [
+        "usr-admin-sasuke",
+        "usr-faculty-david"
+      ],
+      "memberIds": [
+        "usr-admin-sasuke",
+        "usr-student-emmanuel",
+        "usr-faculty-david"
+      ],
+      "createdAt": "2026-10-04T19:36:32.592Z",
+      "ownerId": "usr-admin-sasuke",
+      "isLocked": false
+    },
+    {
+      "id": "grp-languages",
+      "name": "Biblical Languages Study Circle",
+      "description": "Collaborative study group dedicated to Koine Greek, Biblical Hebrew, textual criticism, and morphological parsing.",
+      "category": "Biblical Languages",
+      "coverUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+      "avatarUrl": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=300&auto=format&fit=crop&q=80",
+      "privacy": "public",
+      "adminIds": [
+        "usr-admin-sasuke"
+      ],
+      "memberIds": [
+        "usr-admin-sasuke",
+        "usr-student-ruth",
+        "usr-student-emmanuel"
+      ],
+      "createdAt": "2026-10-04T19:36:32.592Z",
+      "ownerId": "usr-admin-sasuke",
+      "isLocked": false
+    },
+    {
+      "id": "grp-evangelism",
+      "name": "Restoration History & Evangelism",
+      "description": "Discussing the Stone-Campbell Restoration Movement, pioneer church planting in Nigeria, and field evangelism strategies.",
+      "category": "Church History",
+      "coverUrl": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?w=1200&auto=format&fit=crop&q=80",
+      "avatarUrl": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=300&auto=format&fit=crop&q=80",
+      "privacy": "public",
+      "adminIds": [
+        "usr-admin-sasuke"
+      ],
+      "memberIds": [
+        "usr-admin-sasuke",
+        "usr-faculty-david"
+      ],
+      "createdAt": "2026-10-04T19:36:32.592Z",
+      "ownerId": "usr-admin-sasuke",
+      "isLocked": false
+    },
+    {
+      "id": "grp-exam-revision",
+      "name": "Degree Exam Revision & Research Hub",
+      "description": "Academic group for sharing research methodologies, APA/Turabian guidelines, past exam questions, and study notes.",
+      "category": "Academics",
+      "coverUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&auto=format&fit=crop&q=80",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "privacy": "public",
+      "adminIds": [
+        "usr-admin-sasuke"
+      ],
+      "memberIds": [
+        "usr-admin-sasuke",
+        "usr-student-emmanuel",
+        "usr-student-ruth"
+      ],
+      "createdAt": "2026-10-04T19:36:32.592Z",
+      "ownerId": "usr-admin-sasuke",
+      "isLocked": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-1",
+      "authorId": "usr-admin-sasuke",
+      "authorName": "Sasuke (Admin)",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&auto=format&fit=crop&q=80",
+      "caption": "Morning chapel devotions at WNCC Campus. Have a blessed day of lectures!",
+      "createdAt": "2026-10-04T19:36:32.633Z",
+      "expiresAt": "2026-10-05T19:36:32.633Z"
+    },
+    {
+      "id": "story-2",
+      "authorId": "usr-student-emmanuel",
+      "authorName": "Emmanuel",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=800&auto=format&fit=crop&q=80",
+      "caption": "Studying in the library. Preparing for Greek translation class.",
+      "createdAt": "2026-10-04T19:36:32.633Z",
+      "expiresAt": "2026-10-05T19:36:32.633Z"
+    }
+  ],
+  "groupMessages": [
+    {
+      "id": "gmsg-1",
+      "groupId": "grp-ministerial",
+      "senderId": "usr-admin-sasuke",
+      "senderName": "Sasuke (Admin)",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "content": "Welcome everyone to the Ministerial Fellowship group chat! Feel free to share sermon outlines for peer feedback.",
+      "createdAt": "2026-10-04T19:36:32.669Z"
+    }
+  ],
+  "branding": {
+    "siteName": "WNCC AI",
+    "logoUrl": "",
+    "tagline": "West Nigeria Christian College Academic & Community Platform",
+    "primaryColor": "#78350f",
+    "announcementBanner": "Welcome to WNCC AI — The official theological and scholarly community platform.",
+    "rules": [
+      "Maintain Christ-like reverence, scholarly integrity, and mutual respect across all discussions.",
+      "Ground theological debates in Scripture, hermeneutical rigor, and historical Christian context.",
+      "No harassment, unedifying vulgarity, deceptive claims, or malicious conduct.",
+      "Group owners and admins are responsible for pastoral and academic order in their respective spaces.",
+      "Respect intellectual copyright and cite scholarly references accurately."
+    ]
+  },
+  "reports": [],
+  "appeals": [],
+  "adminLogs": []
+}
