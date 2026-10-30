@@ -1,0 +1,2 @@
+# wncc-ai
+student
