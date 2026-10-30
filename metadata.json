@@ -1,0 +1,6 @@
+{
+  "name": "WNCC AI",
+  "description": "The official academic, theological, and biblical AI assistant and community platform for West Nigeria Christian College.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
